@@ -9,9 +9,6 @@ class Solution {
         if(height[p]<height[q]) p++;
         else q--;
     }
-    // if(height.length==2){
-    //     return 1*curr;
-    // }
     return secC;
     }
 }
