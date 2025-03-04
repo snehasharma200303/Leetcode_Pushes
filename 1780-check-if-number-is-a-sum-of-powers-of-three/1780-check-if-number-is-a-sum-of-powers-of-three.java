@@ -8,8 +8,7 @@ class Solution {
       }
       if(ans==n) list.add(ans);
     ans=0;
-    int s=list.size()-1;
-    for(int i=s;i>=0;i--){
+    for(int i=list.size()-1;i>=0;i--){
         int c=list.get(i);
         if((ans+c)==n) return true;
         else if((ans+c)>n) continue;
