@@ -1,30 +1,26 @@
 class Solution {
     public int[] closestPrimes(int left, int right) {
         int[] ansA = {-1, -1};
-
-        int n1 = -1, n2 = -1, min = Integer.MAX_VALUE;
-        while (left <= right) {
-            if (isPrime(left)) {
-                if (n1 == -1) {
-                    n1 = left;
-                } else {
-                    n2 = left;
-                    int diff = n2 - n1;
-                    if (diff < min) {
-                        min = diff;
-                        ansA[0] = n1;
-                        ansA[1] = n2;
-                    } 
-                    else if (diff == min && n1 < ansA[0]) {
-                        ansA[0] = n1;
-                        ansA[1] = n2;
-                    }
-                    n1 = n2;
-                }
-            }
+        ArrayList<Integer> list=new ArrayList<>();
+        while(left<=right){
+            if(isPrime(left)) list.add(left);
             left++;
         }
-        return ansA;
+        int minDiff=Integer.MAX_VALUE;
+        for(int i=1;i<list.size();i++){
+            int diff=(list.get(i)-list.get(i-1));
+            if(diff<minDiff) {
+                minDiff=diff;
+                ansA[0]=list.get(i-1);
+                ansA[1]=list.get(i);
+            }
+            else if(diff==minDiff && ansA[0]>list.get(i-1)){
+                ansA[0]=list.get(i-1);
+                ansA[1]=list.get(i);
+            }
+
+        }
+       return ansA; 
     }
 
     public boolean isPrime(int n) {
