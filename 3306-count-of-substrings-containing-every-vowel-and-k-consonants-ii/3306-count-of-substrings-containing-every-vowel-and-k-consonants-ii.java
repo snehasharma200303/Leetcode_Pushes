@@ -1,19 +1,72 @@
 class Solution {
+
     public long countOfSubstrings(String word, int k) {
-        int n=word.length()-(5+k);
-        int count=0;
-        for(int i=0;i<=n;i++){
-            int a=-1,e=-1,ii=-1,o=-1,u=-1,c=0;
-            for(int j=i;j<(i+5+k);j++){
-            if(word.charAt(j)=='a') a++;
-            else if(word.charAt(j)=='e') e++;
-            else if(word.charAt(j)=='i') ii++;
-            else if(word.charAt(j)=='o') o++;
-            else if(word.charAt(j)=='u') u++;
-            else c++;
+        long count = 0;
+        int start = 0;
+        int end = 0;
+        HashMap<Character, Integer> vcount = new HashMap<>();
+        int c = 0;
+        int[] nc = new int[word.length()];
+        int ncIndex = word.length();
+        for (int i = word.length() - 1; i >= 0; i--) {
+            nc[i] = ncIndex;
+            if (!isVowel(word.charAt(i))) {
+                ncIndex = i;
             }
-            if(a!=-1 && e!=-1 && ii!= -1 && o!=-1 && u!=-1 && c<=k) count++;
         }
+        while (end < word.length()) {
+            char newLetter = word.charAt(end);
+            if (isVowel(newLetter)) {
+                vcount.put(
+                    newLetter,
+                    vcount.getOrDefault(newLetter, 0) + 1
+                );
+            } else {
+                c++;
+            }
+            while (c > k) {
+                char stL = word.charAt(start);
+                if (isVowel(stL)) {
+                    vcount.put(
+                        stL,
+                        vcount.get(stL) - 1
+                    );
+                    if (vcount.get(stL) == 0) {
+                        vcount.remove(stL);
+                    }
+                } else {
+                    c--;
+                }
+                start++;
+            }
+            while (
+                start < word.length() &&
+                vcount.keySet().size() == 5 &&
+                c == k
+            ) {
+                count += nc[end] - end;
+                char stL = word.charAt(start);
+                if (isVowel(stL)) {
+                    vcount.put(
+                        stL,
+                        vcount.get(stL) - 1
+                    );
+                    if (vcount.get(stL) == 0) {
+                        vcount.remove(stL);
+                    }
+                } else {
+                    c--;
+                }
+
+                start++;
+            }
+            end++;
+        }
+
         return count;
+    }
+
+    private boolean isVowel(char c) {
+        return c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u';
     }
 }
