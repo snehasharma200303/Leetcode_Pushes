@@ -19,6 +19,7 @@ class Solution {
             count++;
             i++;
         }
+        if(count>=k) break;
         i++;
        }
     return count>=k;
