@@ -1,16 +1,30 @@
 class Solution {
     public int minCapability(int[] nums, int k) {
-        int min=Integer.MAX_VALUE;
-        if(nums.length<=2) return nums[0];
-        for(int i=0;i<nums.length;i++){
-            int maxx=Integer.MIN_VALUE;
-            for(int j=i+2;j<nums.length;j++){
-                if(nums.length==3) return Math.min(nums[i],nums[j]);
-                maxx=Math.max(nums[i],nums[j]);
-                min=Math.min(maxx,min);
-            }
-
+       int l=Integer.MAX_VALUE;
+       int r=Integer.MIN_VALUE;
+       for(int val: nums){
+        l=Math.min(val,l);
+        r=Math.max(val,r);
+       }
+       while(l<r){
+        int mid=l+(r-l)/2;
+        if(isValid(nums,k, mid)){
+            r=mid;
         }
-        return min;
+        else l=mid+1;
+       }
+       return l;
     }
+    public boolean isValid(int[] nums, int k,int mid){
+       int count=0;
+       int i=0;
+       while(i<nums.length){
+        if(nums[i]<=mid) {
+            count++;
+            i++;
+        }
+        i++;
+       }
+    return count>=k;
+    }    
 }
