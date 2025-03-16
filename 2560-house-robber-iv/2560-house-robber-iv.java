@@ -1,11 +1,7 @@
 class Solution {
     public int minCapability(int[] nums, int k) {
-       int l=Integer.MAX_VALUE;
-       int r=Integer.MIN_VALUE;
-       for(int val: nums){
-        l=Math.min(val,l);
-        r=Math.max(val,r);
-       }
+       int l=1;
+       int r=1000000000;
        while(l<r){
         int mid=l+(r-l)/2;
         if(isValid(nums,k, mid)){
