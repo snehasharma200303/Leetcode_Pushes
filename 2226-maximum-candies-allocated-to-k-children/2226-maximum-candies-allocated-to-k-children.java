@@ -1,6 +1,6 @@
 class Solution {
     public int maximumCandies(int[] candies, long k) {
-        int left=1, right=10000000;
+        int left=1, right=Arrays.stream(candies).max().getAsInt();
         while(left<=right){
             int mid=left+(right-left)/2;
             if(isValidCandy(candies,k,mid)){
@@ -11,7 +11,7 @@ class Solution {
         return right;
     }
     private boolean isValidCandy(int[] arr, long k, int mid){
-        int child=0;
+        long child=0;
         for(int val:arr){
            child+=val/mid;
             if(child>=k) return true;
