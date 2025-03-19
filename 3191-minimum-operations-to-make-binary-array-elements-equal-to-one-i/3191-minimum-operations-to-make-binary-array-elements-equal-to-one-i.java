@@ -3,11 +3,10 @@ class Solution {
         int count=0;
         for(int i=0;i<=nums.length-3;i++){
             if(nums[i]==0){
-                nums[i]=1;
-                if(nums[i+1]==0 ) nums[i+1]=1;
-                else nums[i+1]=0;
-                if(nums[i+2]==0) nums[i+2]=1;
-                else nums[i+2]=0;
+                for(int j=i;j<i+3;j++){
+                    if(nums[j]==1) nums[j]=0;
+                    else nums[j]=1;
+                }
                 count++;
             }
         }
