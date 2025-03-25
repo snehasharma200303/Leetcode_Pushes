@@ -1,17 +1,15 @@
+
+
 class Solution {
-    public int countDays(int days, int[][] meetings) {
-       HashSet<Integer> set=new HashSet<>();
-       int count=0;
-        for(int i=0;i<meetings.length;i++){
-            int s=meetings[i][0],end=meetings[i][1];
-            while(s<=end){
-                if(!set.contains(s)) {
-                    count++;
-                    set.add(s);
-                }
-            s++;
-            }
+    public int countDays(int n, int[][] meetings) {
+        Arrays.sort(meetings, (a, b) -> a[0] - b[0]);
+        int freeDays = 0, lastEnd = 0;
+        
+        for (int[] m : meetings) {
+            if (m[0] > lastEnd + 1) freeDays += m[0] - lastEnd - 1;
+            lastEnd = Math.max(lastEnd, m[1]);
         }
-        return days-count;
+        
+        return freeDays + (n - lastEnd);
     }
 }
