@@ -1,18 +1,18 @@
 class Solution {
     public List<String> generateParenthesis(int n) {
-        return par(n,0,0,"",0);
+        return genPar(n,0,0,"");
     }
-    public ArrayList<String> par(int n, int o, int c, String curr,int total){
+    public ArrayList<String> genPar(int n, int open, int close, String currStr){
         ArrayList<String> list=new ArrayList<>();
-        if(o==n && c==n) {
-            list.add(curr);
+        if(open==n && close==n){
+            list.add(currStr);
             return list;
         }
-        if(o<n){
-        list.addAll(par(n,o+1,c,curr+"(",total+1));
+        if(open<n){
+            list.addAll(genPar(n,open+1,close,currStr+"("));
         }
-         if(o>c){
-        list.addAll(par(n,o,c+1,curr+")",total+1));
+        if(open>close){
+           list.addAll(genPar(n,open,close+1,currStr+")"));
         }
         return list;
     }
