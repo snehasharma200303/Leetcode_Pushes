@@ -6,8 +6,7 @@ class Solution {
         if(idx>=nums.length){
             return currXor;
         }
-        int s1= calTotalXorSum(nums, idx+1,nums[idx]^currXor);
-        int s2=calTotalXorSum(nums, idx+1,currXor);
-        return s1+s2;
+        int s1= calTotalXorSum(nums, idx+1,nums[idx]^currXor) + calTotalXorSum(nums, idx+1,currXor);
+        return s1;
     }
 }
