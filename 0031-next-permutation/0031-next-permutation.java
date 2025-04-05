@@ -11,27 +11,26 @@ class Solution {
             } 
         }
         if(flag){
-          Arrays.sort(nums);
+            reverse(nums,0,n-1);
            return;  
         } 
-        int secMax=secMaxfind(breakIndex,nums);
-        int temp=nums[breakIndex];
-        nums[breakIndex]=nums[secMax];
-        nums[secMax]=temp;
-       nums=reverse(nums,breakIndex);
+        for (int i = n - 1; i > breakIndex; i--) {
+            if (nums[i] > nums[breakIndex]) {
+                swap(nums, i, breakIndex);
+                break;
+            }
+        }
+
+       reverse(nums,breakIndex+1,n-1);
         
     }
-    public int secMaxfind(int idx,int[] nums){
-    int secMax=Integer.MAX_VALUE;
-       for(int i=nums.length-1;i>=idx;i--){
-        if(nums[i]>nums[idx] && nums[i]<secMax){
-            secMax=i;
-        }
-        }
-        return (secMax==Integer.MAX_VALUE ? -1 : secMax);
+       private void swap(int[] nums, int i, int j) {
+        int temp = nums[i];
+        nums[i] = nums[j];
+        nums[j] = temp;
     }
-    public int[] reverse(int[] nums, int idx){
-        int l=idx+1,r=nums.length-1;
+    
+    public int[] reverse(int[] nums, int l,int r){
         while(l<=r){
             int temp=nums[l];
             nums[l]=nums[r];
