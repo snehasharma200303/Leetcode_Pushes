@@ -11,25 +11,24 @@ class Solution {
             } 
         }
         if(flag){
-            reverse(nums,0,n-1);
-           return;  
+          reverse(nums,0,n-1);
+          return;  
         } 
-        for (int i = n - 1; i > breakIndex; i--) {
-            if (nums[i] > nums[breakIndex]) {
-                swap(nums, i, breakIndex);
-                break;
-            }
-        }
-
-       reverse(nums,breakIndex+1,n-1);
+        int secMax=secMaxfind(breakIndex,nums);
+        int temp=nums[breakIndex];
+        nums[breakIndex]=nums[secMax];
+        nums[secMax]=temp;
+       nums=reverse(nums,breakIndex+1,n-1);
         
     }
-       private void swap(int[] nums, int i, int j) {
-        int temp = nums[i];
-        nums[i] = nums[j];
-        nums[j] = temp;
+    public int secMaxfind(int idx,int[] nums){
+       for(int i=nums.length-1;i>idx;i--){
+        if (nums[i] > nums[idx]) {
+            return i;
+        }
+        }
+        return -1;
     }
-    
     public int[] reverse(int[] nums, int l,int r){
         while(l<=r){
             int temp=nums[l];
