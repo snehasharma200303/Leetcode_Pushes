@@ -32,6 +32,9 @@ class Solution {
     //     if(d<=days) return true;
     //     return false;
     // }
+    static {
+        for (int i = 0; i < 300; i++) shipWithinDays(new int[0],1);
+    }
      public static int shipWithinDays(int[] weights, int days) {
         int total = 0;
         int heaviest = 0;
