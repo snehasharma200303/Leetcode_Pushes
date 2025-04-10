@@ -1,8 +1,7 @@
 class Solution {
     public int shipWithinDays(int[] weights, int days) {
-        long l=Integer.MIN_VALUE,r=0;
+        long l=Integer.MIN_VALUE,r=(long)getr(weights);
         for(int w:weights){
-          r+=(long)w;  
           l=Math.max(l,w);
         } 
         while(l<=r){
@@ -14,6 +13,14 @@ class Solution {
         }
         return (int)l;
     }
+    public int getr(int[] arr){
+        int r=0;
+       for(int w:arr){
+          r+=w;  
+        }
+        return r; 
+    }
+
     public boolean isValidW(int[] weights,long mid, int days){
         int d=1;
         int cap=0;
