@@ -1,12 +1,10 @@
 class Solution {
     public int shipWithinDays(int[] weights, int days) {
         long l=Integer.MIN_VALUE,r=0;
-        int ans=0;
         for(int w:weights){
           r+=(long)w;  
           l=Math.max(l,w);
         } 
-        //System.out.println(l);
         while(l<=r){
             long mid=l+(r-l)/2;
             if(isValidW(weights,mid,days)){
