@@ -4,14 +4,18 @@ class Solution {
         int n = digits.length;
         for(int i=0;i<n;i++){
             for(int j=0;j<n;j++){
+              if(i==j) continue;  
                 for(int k=0;k<n;k++){
+                    if(i==k || j==k) continue;
                     if(digits[i] == 0) continue;
                     if(digits[k] % 2!=0) continue;
                     int numbers = digits[i]*100 + digits[j]*10 + digits[k];
                     set.add(numbers);
-                }
+                }      
             }
         }
-        return set.stream().mapToInt(Integer::intValue).toArray();
+        int[] arr=(set.stream().mapToInt(Integer::intValue).toArray());
+        Arrays.sort(arr);
+        return arr;
     }
 }
