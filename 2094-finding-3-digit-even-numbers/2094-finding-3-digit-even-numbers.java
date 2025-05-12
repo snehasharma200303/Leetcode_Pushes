@@ -5,6 +5,7 @@ class Solution {
         for(int i=0;i<n;i++){
              if(digits[i] == 0) continue;
             for(int j=0;j<n;j++){
+                 if(digits[i] == 0) continue;
               if(i==j) continue;  
                 for(int k=0;k<n;k++){
                     if(i==k || j==k) continue;  
