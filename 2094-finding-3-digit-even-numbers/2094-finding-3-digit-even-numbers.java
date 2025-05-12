@@ -14,8 +14,6 @@ class Solution {
                 }      
             }
         }
-        int[] arr=(set.stream().mapToInt(Integer::intValue).toArray());
-        Arrays.sort(arr);
-        return arr;
+      return set.stream().sorted().mapToInt(Integer::intValue).toArray();
     }
 }
