@@ -1,7 +1,7 @@
 class Solution {
     public int rob(int[] nums) {
-        int[] dp=new int[50];
-        for(int i=0;i<50;i++) dp[i]=-1;
+        int[] dp=new int[100];
+        for(int i=0;i<100;i++) dp[i]=-1;
         return findRobber(dp,nums,0);
     }
     public int findRobber(int[] dp,int[] nums, int i){
