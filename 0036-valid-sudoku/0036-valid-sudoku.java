@@ -21,7 +21,7 @@ class Solution {
         int colStart=(col/3)*3;
         for(int i=rowStart;i<(rowStart+3);i++){
             for(int j=colStart;j<(colStart+3);j++){
-                if(row != i && col != j && board[i][j]==num) return false;
+                if((row != i || col != j) && board[i][j]==num) return false;
             }
         }
         return true;
