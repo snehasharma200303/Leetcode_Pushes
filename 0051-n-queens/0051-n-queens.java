@@ -8,7 +8,6 @@ class Solution {
     }
     public void findPosition(int Q, String[][] board, List<List<String>> Ans,int row, int col){
         if(Q<=0 && row==board.length){
-            // System.out.print('d');
             List<String> curr=new ArrayList<>();
            for(int i=0;i<board.length;i++){
             String s="";
@@ -22,20 +21,17 @@ class Solution {
             return;
         }
         if(row==board.length || col==board.length) return;
-        boolean check=false;
+        // boolean check=false;
              if(isSafe(row,col,board)){
-                check=true;
+                // check=true;
             board[row][col]="Q"; Q--;
             findPosition(Q,board,Ans,row+1,0); 
             board[row][col]="."; 
+              Q++;
         }
           
-          if(check){
-            Q++;
-          }
-          findPosition(Q,board,Ans,row,col+1);
-        
-        // if(check) return; 
+          
+          findPosition(Q,board,Ans,row,col+1); 
         return;
     }
     public boolean isSafe(int row,int col, String[][] board){
@@ -46,11 +42,6 @@ class Solution {
             if(board[r-1][c]=="Q") return false;
             r--;
         }
-        // c=0;
-        // while(c<board.length){
-        //     if( c!= col && board[r][c]=="Q") return false;
-        //     c++;
-        // }
         //left Digonal
         r=row;c=col;
         while(r>0 && c>0){
