@@ -1,30 +1,27 @@
 class Solution {
-    int ans=0;
     public int totalNQueens(int n) {
         String[][] board=new String[n][n];
         for(String[] b:board) Arrays.fill(b,".");
-         findPathForQueen(n,board,0,0);
-         return ans;
+         return findPathForQueen(n,board,0,0);
     }
-    public void findPathForQueen(int q, String[][] board, int row, int col){
+    public int findPathForQueen(int q, String[][] board, int row, int col){
         if(q==0 && row==board.length)  {
-            ans++;
-            return;
+            return 1;
         }
-        if(row==board.length || col==board.length) return ;
+        if(row==board.length || col==board.length) return 0;
         boolean check=false;
         int ans=0;
         if(isSafe(row,col,board)){
             check=true;
             board[row][col]="Q";
             q--;
-             findPathForQueen(q,board,row+1,0);
+           ans+= findPathForQueen(q,board,row+1,0);
             board[row][col]=".";
-          
+
         }
         if(check) q++;
-         findPathForQueen(q,board,row,col+1);
-         return;
+        ans+=findPathForQueen(q,board,row,col+1);
+         return ans;
     }
     public boolean isSafe(int row,int col, String[][] board){
         int r=row,c=col;
