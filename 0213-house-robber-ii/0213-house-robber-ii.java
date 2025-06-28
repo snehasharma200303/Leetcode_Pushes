@@ -1,21 +1,21 @@
 class Solution {
     public int rob(int[] nums) {
-        int n=nums.length;
-        if(n==1) return nums[0];
-        int[] dp1=new int[n];
-        int[] dp2=new int[n];
-        for(int i=0;i<n;i++) {
-            dp1[i]=-1;
-            dp2[i]=-1;
-        }
-        int first=findRobber(dp1,nums,0,n-1);
-        int second=findRobber(dp2,nums,1,n);
-       return  Math.max(first,second);
+        int len=nums.length;
+        int dp1[] =new int[len];
+        int dp2[] =new int[len];
+        Arrays.fill(dp1,-1);
+        Arrays.fill(dp2,-1);
+        int rob_0th=maxMoney(dp1,nums,0,len-2);
+        int rob_1th=maxMoney(dp2,nums,1,len-1);
+        return Math.max(rob_0th,rob_1th);
     }
-    public int findRobber(int[] dp,int[] nums, int i, int n){
-        if(i>= n) return 0;
-        if(dp[i] != -1) return dp[i];
-        dp[i] =Math.max(nums[i]+findRobber(dp,nums,i+2,n),findRobber(dp,nums,i+1,n));
+    public int maxMoney(int[] dp,int[] nums, int i, int n){
+        if(i==n) return nums[i];
+        if(i>n) return 0;
+        if(dp[i]!= -1) return dp[i];
+        int step_2=maxMoney(dp,nums,i+2,n)+nums[i];
+        int step_1=maxMoney(dp,nums,i+1,n);
+        dp[i]= Math.max(step_2,step_1);
         return dp[i];
     }
 }
