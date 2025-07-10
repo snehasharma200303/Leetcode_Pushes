@@ -6,7 +6,7 @@ class Solution {
         int child=0;
         for(int i=g.length-1;i>=0;i--){
             if(j<0) return child;
-            if(g[i]<=s[j]){
+            if(s[j]>=g[i]){
                 child++;
                 j--;
             }
