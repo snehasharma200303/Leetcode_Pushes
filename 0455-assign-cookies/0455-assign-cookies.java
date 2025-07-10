@@ -8,7 +8,7 @@ class Solution {
             if(j<0) return child;
             if(s[j]>=g[i]){
                 child++;
-                j--;
+                j-=1;
             }
         }
         return child;
