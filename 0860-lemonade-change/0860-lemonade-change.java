@@ -11,8 +11,6 @@ class Solution {
                 tens+=1;
             }
             else{
-                if(five ==0) return false;
-                if( tens==0 && five <3) return false;
                 if(tens != 0  && five>0){
                 tens-=1;
                 five--;
@@ -21,6 +19,7 @@ class Solution {
                else if(tens==0 && five>=3){
                     five-=3;
                 }
+                else return false;
             }
         }
         return true;
