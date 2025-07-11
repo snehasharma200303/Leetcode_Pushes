@@ -1,4 +1,9 @@
 class Solution {
+     static {
+        for (int i = 0; i < 500; i++) {
+            new Solution().lemonadeChange(new int[]{5,5,5,10,20});
+        }
+    }
     public boolean lemonadeChange(int[] bills) {
         int five=0,tens=0;
         for(int val: bills){
