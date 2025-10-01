@@ -7,7 +7,7 @@ class Solution {
                 n--;}
             
         }
-        if(n!=0 && flowerbed[flowerbed.length-1]!=1 && flowerbed[flowerbed.length-2]!=1) n--;
+       
         return n==0?true:false;
     }
 }
