@@ -12,7 +12,7 @@ class Solution {
                 else{
                    if(t.indexOf(ch,prev+1)<=prev) return false;
                    else{
-                    prev=t.indexOf(ch);
+                    prev=t.indexOf(ch,prev+1);
                    }
                 }
                 map.put(ch,map.get(ch)-1);
