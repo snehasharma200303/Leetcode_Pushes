@@ -6,11 +6,10 @@ class Solution {
         while(p<q){
             if((nums[p]+nums[q])==k){ 
                 count++;
-                // nums[p]=-1;nums[q]=-1;
                 p++;q--;
                 }
-            else if((nums[p]+nums[q])>k)q--;
-            else p++;
+            while(p<q && nums[p]+nums[q]>k) q--;
+            while(p<q && nums[p]+nums[q]<k) p++;
         }
         return count;
     }
