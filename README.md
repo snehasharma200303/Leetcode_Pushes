@@ -7,6 +7,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0001-two-sum](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0001-two-sum/) | Easy |
+| [0169-majority-element](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0169-majority-element/) | Easy |
 | [0189-rotate-array](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0189-rotate-array/) | Medium |
 | [0217-contains-duplicate](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0217-contains-duplicate/) | Easy |
 | [0268-missing-number](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0268-missing-number/) | Easy |
@@ -16,11 +17,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0001-two-sum](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0001-two-sum/) | Easy |
+| [0169-majority-element](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0169-majority-element/) | Easy |
 | [0217-contains-duplicate](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0217-contains-duplicate/) | Easy |
 | [0268-missing-number](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0268-missing-number/) | Easy |
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0169-majority-element](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0169-majority-element/) | Easy |
 | [0217-contains-duplicate](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0217-contains-duplicate/) | Easy |
 | [0268-missing-number](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0268-missing-number/) | Easy |
 ## Math
@@ -52,4 +55,16 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0287-find-the-duplicate-number](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0287-find-the-duplicate-number/) | Medium |
+## Divide and Conquer
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0169-majority-element](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0169-majority-element/) | Easy |
+## Counting
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0169-majority-element](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0169-majority-element/) | Easy |
+## Boyer–Moore Majority Vote Algorithm
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0169-majority-element](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0169-majority-element/) | Easy |
 <!---LeetCode Topics End-->
