@@ -7,6 +7,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0001-two-sum](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0001-two-sum/) | Easy |
+| [0189-rotate-array](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0189-rotate-array/) | Medium |
 | [0217-contains-duplicate](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0217-contains-duplicate/) | Easy |
 | [0268-missing-number](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0268-missing-number/) | Easy |
 | [0283-move-zeroes](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0283-move-zeroes/) | Easy |
@@ -25,6 +26,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0189-rotate-array](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0189-rotate-array/) | Medium |
 | [0268-missing-number](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0268-missing-number/) | Easy |
 ## Binary Search
 | Problem Name | Difficulty |
@@ -39,6 +41,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0189-rotate-array](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0189-rotate-array/) | Medium |
 | [0283-move-zeroes](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0283-move-zeroes/) | Easy |
 | [0287-find-the-duplicate-number](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0287-find-the-duplicate-number/) | Medium |
 ## Pigeonhole Principle
