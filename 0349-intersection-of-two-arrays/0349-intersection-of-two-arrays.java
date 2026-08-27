@@ -1,14 +1,14 @@
 class Solution {
     public int[] intersection(int[] nums1, int[] nums2) {
-        HashMap<Integer,Integer> map=new HashMap<>();
+        HashSet<Integer> map=new HashSet<>();
         ArrayList<Integer>list=new ArrayList<>();
         for(int val:nums1){
-            map.put(val,map.getOrDefault(val,0)+1);
+            map.add(val);
         }
         for(int val:nums2){
-            if(map.containsKey(val) && map.get(val)!=-1){
+            if(map.contains(val)){
                  list.add(val);
-                 map.put(val,-1);
+                 map.remove(val);
             }
              
         }
