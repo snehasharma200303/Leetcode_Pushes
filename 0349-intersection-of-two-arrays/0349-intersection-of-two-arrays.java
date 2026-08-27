@@ -1,12 +1,16 @@
 class Solution {
     public int[] intersection(int[] nums1, int[] nums2) {
-        HashSet<Integer> set=new HashSet<>();
+        HashMap<Integer,Integer> map=new HashMap<>();
         ArrayList<Integer>list=new ArrayList<>();
         for(int val:nums1){
-            set.add(val);
+            map.put(val,map.getOrDefault(val,0)+1);
         }
         for(int val:nums2){
-            if(set.contains(val) && !list.contains(val)) list.add(val);
+            if(map.containsKey(val) && map.get(val)!=-1){
+                 list.add(val);
+                 map.put(val,-1);
+            }
+             
         }
         return list.stream().mapToInt(Integer::intValue).toArray();
     }
