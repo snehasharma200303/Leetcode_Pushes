@@ -18,6 +18,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0349-intersection-of-two-arrays](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0349-intersection-of-two-arrays/) | Easy |
 | [0350-intersection-of-two-arrays-ii](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0350-intersection-of-two-arrays-ii/) | Easy |
 | [0496-next-greater-element-i](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0496-next-greater-element-i/) | Easy |
+| [0746-min-cost-climbing-stairs](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0746-min-cost-climbing-stairs/) | Easy |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -88,6 +89,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0053-maximum-subarray](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0053-maximum-subarray/) | Medium |
+| [0746-min-cost-climbing-stairs](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0746-min-cost-climbing-stairs/) | Easy |
 ## Quicksort
 | Problem Name | Difficulty |
 | ------- | ------- |
