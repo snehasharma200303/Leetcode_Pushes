@@ -7,7 +7,7 @@ class Solution {
     public int findWays(int n , int[] dp){      
         if(n<=1) return 1;
         if(dp[n]!=-1) return dp[n];
-        int count=findWays(n-1,dp)+findWays(n-2,dp);
-        return dp[n]=count;
+        dp[n]=findWays(n-1,dp)+findWays(n-2,dp);
+        return dp[n];
     }
 }
