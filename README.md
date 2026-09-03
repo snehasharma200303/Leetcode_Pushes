@@ -24,6 +24,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0494-target-sum](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0494-target-sum/) | Medium |
 | [0496-next-greater-element-i](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0496-next-greater-element-i/) | Easy |
 | [0746-min-cost-climbing-stairs](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0746-min-cost-climbing-stairs/) | Easy |
+| [1029-two-city-scheduling](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/1029-two-city-scheduling/) | Medium |
 | [3875-construct-uniform-parity-array-i](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/3875-construct-uniform-parity-array-i/) | Easy |
 ## Hash Table
 | Problem Name | Difficulty |
@@ -44,6 +45,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0268-missing-number](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0268-missing-number/) | Easy |
 | [0349-intersection-of-two-arrays](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0349-intersection-of-two-arrays/) | Easy |
 | [0350-intersection-of-two-arrays-ii](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0350-intersection-of-two-arrays-ii/) | Easy |
+| [1029-two-city-scheduling](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/1029-two-city-scheduling/) | Medium |
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -148,4 +150,16 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0064-minimum-path-sum](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0064-minimum-path-sum/) | Medium |
+## Greedy
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1029-two-city-scheduling](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/1029-two-city-scheduling/) | Medium |
+## Hungarian Algorithm
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1029-two-city-scheduling](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/1029-two-city-scheduling/) | Medium |
+## Successive Shortest Path Algorithm
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1029-two-city-scheduling](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/1029-two-city-scheduling/) | Medium |
 <!---LeetCode Topics End-->
