@@ -24,6 +24,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0494-target-sum](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0494-target-sum/) | Medium |
 | [0496-next-greater-element-i](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0496-next-greater-element-i/) | Easy |
 | [0746-min-cost-climbing-stairs](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0746-min-cost-climbing-stairs/) | Easy |
+| [3875-construct-uniform-parity-array-i](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/3875-construct-uniform-parity-array-i/) | Easy |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -50,6 +51,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0070-climbing-stairs](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0070-climbing-stairs/) | Easy |
 | [0189-rotate-array](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0189-rotate-array/) | Medium |
 | [0268-missing-number](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0268-missing-number/) | Easy |
+| [3875-construct-uniform-parity-array-i](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/3875-construct-uniform-parity-array-i/) | Easy |
 ## Binary Search
 | Problem Name | Difficulty |
 | ------- | ------- |
