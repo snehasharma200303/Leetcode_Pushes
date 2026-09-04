@@ -9,7 +9,7 @@ class Solution {
             for(int j=1;j<strs.length;j++){
                 String prev=strs[j-1];
                 String next=strs[j];
-                if(prev.charAt(i)!=next.charAt(i)) return next.substring(0,i);
+                if(prev.charAt(i)!=next.charAt(i)) return prev.substring(0,i);
                 
             }
         }
