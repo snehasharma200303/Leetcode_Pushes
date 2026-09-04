@@ -7,6 +7,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0001-two-sum](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0001-two-sum/) | Easy |
+| [0014-longest-common-prefix](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0014-longest-common-prefix/) | Easy |
 | [0053-maximum-subarray](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0053-maximum-subarray/) | Medium |
 | [0064-minimum-path-sum](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0064-minimum-path-sum/) | Medium |
 | [0075-sort-colors](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0075-sort-colors/) | Medium |
@@ -171,6 +172,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0014-longest-common-prefix](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0014-longest-common-prefix/) | Easy |
 | [0125-valid-palindrome](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0125-valid-palindrome/) | Easy |
 | [0242-valid-anagram](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0242-valid-anagram/) | Easy |
 | [0344-reverse-string](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0344-reverse-string/) | Easy |
@@ -179,4 +181,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0387-first-unique-character-in-a-string](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0387-first-unique-character-in-a-string/) | Easy |
+## Trie
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0014-longest-common-prefix](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0014-longest-common-prefix/) | Easy |
 <!---LeetCode Topics End-->
