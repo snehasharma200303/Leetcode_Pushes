@@ -24,6 +24,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0416-partition-equal-subset-sum](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0416-partition-equal-subset-sum/) | Medium |
 | [0494-target-sum](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0494-target-sum/) | Medium |
 | [0496-next-greater-element-i](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0496-next-greater-element-i/) | Easy |
+| [0704-binary-search](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0704-binary-search/) | Easy |
 | [0746-min-cost-climbing-stairs](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0746-min-cost-climbing-stairs/) | Easy |
 | [1029-two-city-scheduling](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/1029-two-city-scheduling/) | Medium |
 | [3875-construct-uniform-parity-array-i](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/3875-construct-uniform-parity-array-i/) | Easy |
@@ -65,6 +66,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0287-find-the-duplicate-number](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0287-find-the-duplicate-number/) | Medium |
 | [0349-intersection-of-two-arrays](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0349-intersection-of-two-arrays/) | Easy |
 | [0350-intersection-of-two-arrays-ii](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0350-intersection-of-two-arrays-ii/) | Easy |
+| [0704-binary-search](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0704-binary-search/) | Easy |
 ## Bit Manipulation
 | Problem Name | Difficulty |
 | ------- | ------- |
