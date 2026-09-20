@@ -8,6 +8,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0001-two-sum](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0001-two-sum/) | Easy |
 | [0014-longest-common-prefix](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0014-longest-common-prefix/) | Easy |
+| [0035-search-insert-position](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0035-search-insert-position/) | Easy |
 | [0053-maximum-subarray](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0053-maximum-subarray/) | Medium |
 | [0064-minimum-path-sum](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0064-minimum-path-sum/) | Medium |
 | [0075-sort-colors](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0075-sort-colors/) | Medium |
@@ -62,6 +63,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Binary Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0035-search-insert-position](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0035-search-insert-position/) | Easy |
 | [0268-missing-number](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0268-missing-number/) | Easy |
 | [0287-find-the-duplicate-number](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0287-find-the-duplicate-number/) | Medium |
 | [0349-intersection-of-two-arrays](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0349-intersection-of-two-arrays/) | Easy |
