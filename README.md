@@ -14,6 +14,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0053-maximum-subarray](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0053-maximum-subarray/) | Medium |
 | [0064-minimum-path-sum](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0064-minimum-path-sum/) | Medium |
 | [0075-sort-colors](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0075-sort-colors/) | Medium |
+| [0153-find-minimum-in-rotated-sorted-array](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0153-find-minimum-in-rotated-sorted-array/) | Medium |
 | [0169-majority-element](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0169-majority-element/) | Easy |
 | [0189-rotate-array](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0189-rotate-array/) | Medium |
 | [0198-house-robber](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0198-house-robber/) | Medium |
@@ -68,6 +69,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0033-search-in-rotated-sorted-array](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0033-search-in-rotated-sorted-array/) | Medium |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0034-find-first-and-last-position-of-element-in-sorted-array/) | Medium |
 | [0035-search-insert-position](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0035-search-insert-position/) | Easy |
+| [0153-find-minimum-in-rotated-sorted-array](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0153-find-minimum-in-rotated-sorted-array/) | Medium |
 | [0268-missing-number](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0268-missing-number/) | Easy |
 | [0287-find-the-duplicate-number](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0287-find-the-duplicate-number/) | Medium |
 | [0349-intersection-of-two-arrays](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0349-intersection-of-two-arrays/) | Easy |
