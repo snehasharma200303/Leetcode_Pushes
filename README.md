@@ -15,6 +15,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0053-maximum-subarray](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0053-maximum-subarray/) | Medium |
 | [0064-minimum-path-sum](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0064-minimum-path-sum/) | Medium |
 | [0075-sort-colors](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0075-sort-colors/) | Medium |
+| [0088-merge-sorted-array](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0088-merge-sorted-array/) | Easy |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0153-find-minimum-in-rotated-sorted-array/) | Medium |
 | [0169-majority-element](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0169-majority-element/) | Easy |
@@ -50,6 +51,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0075-sort-colors](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0075-sort-colors/) | Medium |
+| [0088-merge-sorted-array](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0088-merge-sorted-array/) | Easy |
 | [0169-majority-element](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0169-majority-element/) | Easy |
 | [0217-contains-duplicate](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0217-contains-duplicate/) | Easy |
 | [0242-valid-anagram](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0242-valid-anagram/) | Easy |
@@ -87,6 +89,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0026-remove-duplicates-from-sorted-array/) | Easy |
 | [0075-sort-colors](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0075-sort-colors/) | Medium |
+| [0088-merge-sorted-array](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0088-merge-sorted-array/) | Easy |
 | [0125-valid-palindrome](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0125-valid-palindrome/) | Easy |
 | [0189-rotate-array](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0189-rotate-array/) | Medium |
 | [0283-move-zeroes](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0283-move-zeroes/) | Easy |
