@@ -87,6 +87,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0005-longest-palindromic-substring](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0005-longest-palindromic-substring/) | Medium |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0026-remove-duplicates-from-sorted-array/) | Easy |
 | [0075-sort-colors](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0075-sort-colors/) | Medium |
 | [0088-merge-sorted-array](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0088-merge-sorted-array/) | Easy |
@@ -122,6 +123,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0005-longest-palindromic-substring](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0005-longest-palindromic-substring/) | Medium |
 | [0053-maximum-subarray](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0053-maximum-subarray/) | Medium |
 | [0062-unique-paths](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0062-unique-paths/) | Medium |
 | [0064-minimum-path-sum](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0064-minimum-path-sum/) | Medium |
@@ -189,6 +191,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0005-longest-palindromic-substring](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0005-longest-palindromic-substring/) | Medium |
 | [0014-longest-common-prefix](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0014-longest-common-prefix/) | Easy |
 | [0125-valid-palindrome](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0125-valid-palindrome/) | Easy |
 | [0242-valid-anagram](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0242-valid-anagram/) | Easy |
@@ -213,4 +216,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1581-customer-who-visited-but-did-not-make-any-transactions](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/1581-customer-who-visited-but-did-not-make-any-transactions/) | Easy |
 | [1683-invalid-tweets](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/1683-invalid-tweets/) | Easy |
 | [1757-recyclable-and-low-fat-products](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/1757-recyclable-and-low-fat-products/) | Easy |
+## Manacher
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0005-longest-palindromic-substring](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0005-longest-palindromic-substring/) | Medium |
 <!---LeetCode Topics End-->
