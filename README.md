@@ -33,6 +33,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0496-next-greater-element-i](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0496-next-greater-element-i/) | Easy |
 | [0704-binary-search](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0704-binary-search/) | Easy |
 | [0746-min-cost-climbing-stairs](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0746-min-cost-climbing-stairs/) | Easy |
+| [0912-sort-an-array](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0912-sort-an-array/) | Medium |
 | [1029-two-city-scheduling](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/1029-two-city-scheduling/) | Medium |
 | [3875-construct-uniform-parity-array-i](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/3875-construct-uniform-parity-array-i/) | Easy |
 ## Hash Table
@@ -60,6 +61,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0268-missing-number](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0268-missing-number/) | Easy |
 | [0349-intersection-of-two-arrays](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0349-intersection-of-two-arrays/) | Easy |
 | [0350-intersection-of-two-arrays-ii](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0350-intersection-of-two-arrays-ii/) | Easy |
+| [0912-sort-an-array](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0912-sort-an-array/) | Medium |
 | [1029-two-city-scheduling](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/1029-two-city-scheduling/) | Medium |
 ## Math
 | Problem Name | Difficulty |
@@ -119,6 +121,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0053-maximum-subarray](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0053-maximum-subarray/) | Medium |
 | [0169-majority-element](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0169-majority-element/) | Easy |
+| [0912-sort-an-array](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0912-sort-an-array/) | Medium |
 ## Counting
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -240,4 +243,24 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0206-reverse-linked-list](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0206-reverse-linked-list/) | Easy |
+## Heap (Priority Queue)
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0912-sort-an-array](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0912-sort-an-array/) | Medium |
+## Merge Sort
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0912-sort-an-array](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0912-sort-an-array/) | Medium |
+## Bucket Sort
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0912-sort-an-array](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0912-sort-an-array/) | Medium |
+## Radix Sort
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0912-sort-an-array](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0912-sort-an-array/) | Medium |
+## Counting Sort
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0912-sort-an-array](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0912-sort-an-array/) | Medium |
 <!---LeetCode Topics End-->
