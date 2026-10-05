@@ -70,6 +70,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0070-climbing-stairs](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0070-climbing-stairs/) | Easy |
 | [0189-rotate-array](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0189-rotate-array/) | Medium |
 | [0268-missing-number](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0268-missing-number/) | Easy |
+| [0509-fibonacci-number](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0509-fibonacci-number/) | Easy |
 | [3875-construct-uniform-parity-array-i](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/3875-construct-uniform-parity-array-i/) | Easy |
 ## Binary Search
 | Problem Name | Difficulty |
@@ -144,6 +145,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0213-house-robber-ii](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0213-house-robber-ii/) | Medium |
 | [0416-partition-equal-subset-sum](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0416-partition-equal-subset-sum/) | Medium |
 | [0494-target-sum](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0494-target-sum/) | Medium |
+| [0509-fibonacci-number](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0509-fibonacci-number/) | Easy |
 | [0746-min-cost-climbing-stairs](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0746-min-cost-climbing-stairs/) | Easy |
 ## Quicksort
 | Problem Name | Difficulty |
@@ -165,6 +167,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0070-climbing-stairs](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0070-climbing-stairs/) | Easy |
+| [0509-fibonacci-number](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0509-fibonacci-number/) | Easy |
 ## Combinatorics
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -243,6 +246,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0206-reverse-linked-list](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0206-reverse-linked-list/) | Easy |
+| [0509-fibonacci-number](https://github.com/snehasharma200303/Leetcode_Pushes/tree/main/0509-fibonacci-number/) | Easy |
 ## Heap (Priority Queue)
 | Problem Name | Difficulty |
 | ------- | ------- |
